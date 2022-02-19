@@ -1,0 +1,36 @@
+body {
+    background-image: linear-gradient(to right top, #f092f6, #a992f6, #9992f6,#92bdf6);
+    color:white;
+}
+
+.heading {
+    width: 80%;
+    font-size: 22px;
+    font-family: 'Yeon Sung';
+}
+
+#camera {
+    border: 2px dashed #ffadb6;
+    width: 350px;
+    height: 300px;
+}
+
+.name_of_objects, #result_object_name, #result_object_accuracy {
+color: white;
+}
+
+#buttonSnapshot {
+    width: 45%;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #fc95b9;
+    border-color: #cf79fc;
+}
+
+#buttonIdentify {
+    width: 45%;
+    height:40px;
+    border-radius: 15px;
+    background-color: #ff4ac0;
+    border-color: #cf79fc;
+}
